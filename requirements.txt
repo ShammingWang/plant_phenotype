@@ -1,0 +1,9 @@
+# pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/
+opencv-python==4.5.4.60
+numpy
+# 如何是macOS的话 最新版本的numpy可能不兼容 可以使用老版本的numpy
+pyside6
+pandas
+scipy
+xmltodict
+crcmod

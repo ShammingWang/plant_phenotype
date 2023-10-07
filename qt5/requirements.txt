@@ -1,0 +1,41 @@
+# how to create new conda env
+# conda create -n plant_phenotype python=3.6
+
+# how to use requirements.txt:
+# pip install -r .\requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/  #����һ��Ҫ��pip�������Ƿ���conda��
+
+# how to install sl.zed
+# open a conda prompt first in admin mode
+# cd 'path_to_zed_root_directory' | e.g. C:\Program Files (x86)\ZED SDK
+# activate plant_phenotype
+# python get_python_api.py
+
+# how to install pcl
+# cd 'path_to_lib\python-pcl-0.3.0rc1'
+# python setup.py install
+# move 'path_to_pcl_folder(in the build of path_to_lib\python-pcl-0.3.0rc1)' 'path_to_conda_envs\plant_phenotype\Lib\site-packages\'
+
+PySide6
+opencv-python==4.5.4.60
+pandas
+matplotlib
+open3d
+scipy
+pyrealsense2
+
+# how to install sl.zed
+# open a conda prompt first in admin mode
+# cd 'path_to_zed_root_directory' | e.g. C:\Program Files (x86)\ZED SDK
+# activate plant_phenotype
+# python get_python_api.py
+
+# how to reset conda env
+# open a conda prompt
+# conda remove -n plant_phenotype --all
+# conda create -n plant_phenotype python=3.6
+requests
+numpy
+six
+xmltodict
+crcmod
+setuptools
